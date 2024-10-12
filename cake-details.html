@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cake Details</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cakes.html">Cakes</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="cake-des-container">
+        <div class="cake-des">
+            <h2>Chocolate Cake</h2>
+            <img src="bestSeller1.jpeg" alt="Chocolate Cake" class="image">
+            <p>Indulge in the rich, velvety goodness of our Classic Chocolate Cake. Made with the finest cocoa...</p>
+            <label for="flavor1">Flavor:</label>
+            <select id="flavor1">
+                <option value="chocolate">Chocolate</option>
+                <option value="vanilla">Vanilla</option>
+                <option value="red velvet">Red Velvet</option>
+            </select>
+            <button class="add-to-cart" data-cake-id="chocolate">Add to Cart</button>
+        </div>
+
+        <div class="cake-des">
+            <h2>Vanilla Cake</h2>
+            <img src="bestSeller2.jpg" alt="Vanilla Cake" class="image">
+            <p>Savor the timeless elegance of our Classic Vanilla Cake. Baked to golden perfection...</p>
+            <label for="flavor2">Flavor:</label>
+            <select id="flavor2">
+                <option value="chocolate">Chocolate</option>
+                <option value="vanilla">Vanilla</option>
+                <option value="red velvet">Red Velvet</option>
+            </select>
+            <button class="add-to-cart" data-cake-id="vanilla">Add to Cart</button>
+        </div>
+
+        <div class="cake-des">
+            <h2>Birthday Cake</h2>
+            <img src="bestSeller3.jpeg" alt="Birthday Cake" class="image">
+            <p>Make birthdays extra special with our beautifully crafted Birthday Cake...</p>
+            <label for="flavor3">Flavor:</label>
+            <select id="flavor3">
+                <option value="chocolate">Chocolate</option>
+                <option value="vanilla">Vanilla</option>
+                <option value="red velvet">Red Velvet</option>
+            </select>
+            <button class="add-to-cart" data-cake-id="birthday">Add to Cart</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>Contact us: info@cakeshop.com | Follow us on social media</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

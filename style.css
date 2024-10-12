@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #f8b400;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.about {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.best-sellers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cake-card {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.image{
+    height: 200px;
+    width: 250px;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.category {
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+    background: #f8b400;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.cake-des-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.cake-des{
+    padding: 20px;
+}
+
+/*Cake section*/
+.cake-card-2 {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to next line if needed */
+    justify-content: space-between; /* Adds space between the cards */
+}
+
+.category {
+    flex-basis: 38%; /* Adjust this to control how much space each image takes */
+    margin-bottom: 20px; /* Adds some space below each row of images */
+}
+
+.cakes {
+    width: 90%; /* Ensures images fill their container */
+    height: 300px; /* Keeps the aspect ratio of the images */
+}
+
+ 
